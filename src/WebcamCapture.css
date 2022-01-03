@@ -1,0 +1,21 @@
+.webcamcapture {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  
+}
+.webcamcapture__button {
+  position: absolute;
+  width: 50px !important;
+  height: 50px !important;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: white;
+}
